@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>user profile </title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color: #2b2525; }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2rem; background: linear-gradient(135deg,rgb(243,178,58)); color: white;
+    }
+    .profile-picture {
+      width: 100px; height: 100px; border-radius: 50%; object-fit: cover;
+      border: 3px solid white;
+    }
+    nav {
+      display: flex; gap: 1rem;
+    }
+    nav a {
+      text-decoration: none; padding: 0.5rem 1rem;
+      border-radius: 6px; background: white; color: navy; font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { background: black; color: white; }
+    section { max-width: 800px; margin: 2rem auto; padding: 1.5rem; background: #fff; border-radius: 8px; }
+    footer { text-align: center; padding: 1rem; background: rgb(243,178,58); color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="photo1.jpg" alt="Profile Picture" class="profile-picture">
+    <h1><strong>Vishwa.p</strong></h1>
+    <p> Web designer | Program developer </p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#github">Github</a>
+      <a href="#contact">Contact</a>
+      <a href="#certificate">Certificate</a>
+    </nav>
+  </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I am Vishwa.P, a passionate web developer with skills in HTML, CSS, JavaScript and more. I enjoy building clean and functional user interfaces</p>
+    </section> 
+
+  <section id="education">
+    <h2>Education</h2>
+    <p> Bachelor of science in computer science </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python – Beginner Level</li>
+      <li>Java – Beginner Level</li>
+      <li>C++ – Beginner Level</li>
+    </ul>
+  </section>
+
+  <section id="github">
+    <h2>Github</h2>
+    <p><a href=" https://github.com/vv867553-coder/Vishwagithub.git">Github account</a></p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Vishwa123@gmail.com">Vishwa123@gmail.com</a></p>
+    <p>Phone: +91-7708174692</p>
+    <p>Location: Chennai, India</p>
+  </section>
+  <section id="certificate">
+    <h2>Certificate</h2>
+    <a href=" https://www.credly.com/badges/f0ad45a0-f486-4f41-8079-675da6c60f07/public_url">IBM SKILLBUILD CREDY ACCOUNT</a>
+  </section>
+  <footer>
+    <p>&copy; 2025 Vishwa.p. All rights reserved.</p>
+  </footer>
+</body>
+</html>
